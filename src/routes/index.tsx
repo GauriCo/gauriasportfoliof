@@ -51,7 +51,7 @@ function Home() {
           <div className="mt-6 animate-slide-up-delay-1">
             <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black leading-none tracking-tight">
               <span className="block text-foreground">Hi, I'm</span>
-              <span className="block gradient-text-animated mt-1">Alex Morgan</span>
+              <span className="block gradient-text-animated mt-1">Gauri Sawant</span>
             </h1>
           </div>
 
@@ -60,7 +60,7 @@ function Home() {
             <p className="text-xl sm:text-2xl text-muted-foreground font-medium max-w-2xl">
               Full Stack Developer crafting{' '}
               <span className="gradient-text font-semibold">fast, beautiful</span>{' '}
-              web experiences with React & TypeScript.
+              web experiences with Java & Spring Boot.
             </p>
           </div>
 
