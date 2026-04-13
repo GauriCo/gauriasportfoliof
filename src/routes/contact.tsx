@@ -25,54 +25,36 @@ function encode(data: Record<string, string>) {
 const socialLinks = [
   {
     name: 'GitHub',
-    href: 'https://github.com/alexmorgan',
+    href: 'https://github.com/GauriCo?tab=repositories',
     icon: Github,
     color: 'var(--foreground)',
     bg: 'color-mix(in oklch, var(--foreground) 10%, transparent)',
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/alexmorgan',
+    href: 'https://www.linkedin.com/in/gauri-sawant-a54354211/',
     icon: Linkedin,
     color: 'oklch(0.6 0.2 240)',
     bg: 'color-mix(in oklch, oklch(0.6 0.2 240) 12%, transparent)',
   },
-  {
-    name: 'Twitter',
-    href: 'https://twitter.com/alexmorgan',
-    icon: Twitter,
-    color: 'oklch(0.7 0.18 215)',
-    bg: 'color-mix(in oklch, oklch(0.7 0.18 215) 12%, transparent)',
-  },
-  {
-    name: 'Portfolio',
-    href: 'https://alexmorgan.dev',
-    icon: Globe,
-    color: 'var(--cyan)',
-    bg: 'color-mix(in oklch, var(--cyan) 12%, transparent)',
-  },
+   { name: 'Mail', href: 'mailto:gaurisawant567@gmail.com', icon: Mail, username: 'gaurisawant567@gmail.com' },
 ]
 
 const skillGroups = [
   {
     label: 'Frontend',
     color: 'var(--violet)',
-    skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'TanStack Router', 'Radix UI'],
+    skills: ['React', 'JavaScript', 'HTML & CSS'],
   },
   {
     label: 'Backend',
     color: 'var(--cyan)',
-    skills: ['Node.js', 'Express', 'GraphQL', 'REST APIs', 'PostgreSQL', 'Redis'],
-  },
-  {
-    label: 'DevOps',
-    color: 'oklch(0.7 0.18 160)',
-    skills: ['Docker', 'GitHub Actions', 'Netlify', 'AWS', 'Vercel', 'Linux'],
+    skills: ['Java', 'Spring Boot','REST APIs', 'MySQL', 'Hibernate'],
   },
   {
     label: 'Tools',
     color: 'oklch(0.7 0.22 40)',
-    skills: ['VS Code', 'Figma', 'Git', 'Postman', 'Linear', 'Notion'],
+    skills: ['VS Code', 'Spring Tool Suit', 'Git', 'Postman', 'Flex Deploy', 'JDeveloper'],
   },
 ]
 
@@ -291,10 +273,10 @@ function Contact() {
                     <div>
                       <p className="text-xs text-muted-foreground mb-0.5">Email</p>
                       <a
-                        href="mailto:hello@alexmorgan.dev"
+                        href="mailto:hello@gaurisawant.dev"
                         className="text-sm font-medium hover:text-primary transition-colors"
                       >
-                        hello@alexmorgan.dev
+                        hello@gaurisawant.dev
                       </a>
                     </div>
                   </div>
