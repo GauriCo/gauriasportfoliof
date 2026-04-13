@@ -15,11 +15,11 @@ export const Route = createRootRoute({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'Alex Morgan — Full Stack Developer' },
+      { title: 'Gauri Sawant — Full Stack Developer' },
       {
         name: 'description',
         content:
-          'Full stack developer specializing in React, TypeScript, and modern web technologies.',
+          'Full stack developer specializing in Core Java, Spring Boot, MySQL, React, JavaScript, and modern web technologies.',
       },
     ],
   }),
@@ -59,7 +59,7 @@ function Nav({ dark, setDark }: { dark: boolean; setDark: (v: boolean) => void }
             >
               AM
             </div>
-            <span className="font-bold text-lg hidden sm:block">Alex Morgan</span>
+            <span className="font-bold text-lg hidden sm:block">Gauri Sawant</span>
           </Link>
 
           {/* Desktop nav */}
@@ -148,7 +148,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             <footer className="border-t border-border/60 py-8 mt-24">
               <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className="text-sm text-muted-foreground">
-                  © 2025 Alex Morgan. Built with TanStack Start & Netlify.
+                  © 2026 Gauri Sawant. My Portfolio. All rights reserved by Gauri
                 </p>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
                   <Link to="/" className="hover:text-foreground transition-colors">Home</Link>
