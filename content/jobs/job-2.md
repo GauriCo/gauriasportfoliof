@@ -1,22 +1,19 @@
 ---
-jobTitle: Full Stack Developer
-company: StartupXYZ
-location: Remote
-startDate: 2021-03-01
-endDate: 2022-12-31
-summary: Full stack developer on a fast-moving fintech startup building expense management software. Owned the Node.js/GraphQL API layer and contributed heavily to the React frontend. Helped grow the product from 500 to 12,000 paying users in under two years.
+jobTitle: Senior Software Engineer
+company: Rajyakarta Political Cousultancy.
+location: Mumbai, India 
+startDate: 2024-12-01
+endDate: 2026-02-07
+summary:  ○ Designed and developed an Employee Management System to manage employee records, roles, attendance, and internal workflows, improving operational efficiency. ○ Developed a Voter Survey Application for collecting, storing, and analyzing voter data during political campaigns. ○ Implemented backend logic and database integration to ensure secure data handling and accurate reporting. ○ Collaborated with team members to understand functional requirements and convert them into scalable software solutions. ○ Performed testing, debugging, and maintenance to ensure application stability and performance. ○ Worked with technologies such as Java, Spring Boot, REST APIs, SQL databases, and frontend technologies. 
 tags:
   [
-    "Node.js",
-    "GraphQL",
-    "React",
-    "PostgreSQL",
-    "TypeScript",
-    "Docker",
+     "Core Java",
+    "JavaScript",
+    "Spring Boot",
+    "Hibernate",
+    "RestAPI",
+    "MySQL",
   ]
 ---
 
-- Built a GraphQL API serving 200+ resolvers with sub-50ms p99 response times via DataLoader batching.
-- Integrated Stripe billing, webhooks, and subscription management for recurring revenue features.
-- Designed and migrated the database schema from MongoDB to PostgreSQL, improving query performance by 3×.
-- Set up CI/CD pipelines with GitHub Actions and Docker, cutting deployment time from 45 min to under 5 min.
+Led a team of three engineers to rebuild the core dashboard using React 18 and TypeScript, delivering a pixel-perfect design system used across 12 product surfaces. Introduced end-to-end testing with Playwright and reduced regression bugs by 70%.
