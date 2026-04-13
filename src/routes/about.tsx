@@ -12,26 +12,25 @@ const skillCategories = [
     label: 'Frontend',
     skills: [
       { name: 'React / React Native', level: 95 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'Tailwind CSS', level: 92 },
-      { name: 'Next.js / TanStack Start', level: 88 },
+      { name: 'JavaScript', level: 90 },
+      { name: 'HTML & CSS', level: 92 },
     ],
   },
   {
     label: 'Backend',
     skills: [
-      { name: 'Node.js / Express', level: 85 },
-      { name: 'PostgreSQL', level: 80 },
-      { name: 'GraphQL', level: 75 },
+      { name: 'Core Java', level: 85 },
+      { name: 'MySQL', level: 80 },
+      { name: 'Spring Boot', level: 75 },
       { name: 'REST API Design', level: 90 },
     ],
   },
   {
     label: 'DevOps & Tools',
     skills: [
-      { name: 'Docker / Kubernetes', level: 72 },
-      { name: 'CI/CD (GitHub Actions)', level: 85 },
-      { name: 'AWS / Netlify / Vercel', level: 82 },
+      { name: 'Spring Tool Suit', level: 72 },
+      { name: 'JDeveloper', level: 85 },
+      { name: 'Flex Deploy', level: 82 },
       { name: 'Git & Version Control', level: 95 },
     ],
   },
@@ -129,8 +128,8 @@ function About() {
                   }}
                 />
                 <img
-                  src="/headshot-on-white.jpg"
-                  alt="Alex Morgan"
+                  src="/B612_20260223_142641_254.jpg"
+                  alt="Gauri Sawant"
                   className="relative w-72 h-80 rounded-3xl object-cover"
                   style={{
                     border: '2px solid color-mix(in oklch, var(--violet) 40%, transparent)',
