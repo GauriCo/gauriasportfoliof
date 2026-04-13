@@ -8,8 +8,7 @@ export const Route = createFileRoute('/')({
 })
 
 const techStack = [
-  'React', 'TypeScript', 'Node.js', 'TanStack', 'Tailwind CSS',
-  'PostgreSQL', 'GraphQL', 'Docker',
+  'Java', 'JavaScript', 'Spring Boot', 'MySQL', 'Hibernate',
 ]
 
 function Home() {
@@ -87,6 +86,35 @@ function Home() {
             </Link>
           </div>
 
+          <div
+  className="flex justify-center lg:justify-end animate-fade-in"
+  style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
+>
+  <div className="relative animate-float">
+    <div
+      className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary/30 via-violet-500/20 to-indigo-400/30 blur-xl"
+      aria-hidden="true"
+    />
+    
+    <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full ring-4 ring-primary/40 ring-offset-4 ring-offset-background overflow-hidden shadow-2xl">
+      <img
+        src="/b612_20260223_142641_254.jpg"
+        alt="Gauri Sawant — Backend Developer"
+        className="w-full h-full object-cover"
+        width={320}
+        height={320}
+      />
+    </div>
+
+    {/* Floating stat badge */}
+    <div className="absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 bg-card border border-border rounded-2xl px-4 py-2.5 shadow-lg">
+      <div className="text-xs text-muted-foreground">Experience</div>
+      <div className="text-lg font-extrabold">4+ Years</div>
+    </div>
+
+  </div>
+</div>
+
           {/* Scroll indicator */}
           <div className="mt-20 flex justify-center animate-float opacity-50">
             <ChevronDown size={24} className="text-muted-foreground" />
@@ -161,9 +189,12 @@ function Home() {
                 <span className="gradient-text">building things</span> that matter
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a full stack developer with 5+ years of experience turning complex
-                problems into elegant, performant web applications. I thrive at the
-                intersection of great design and clean engineering.
+               I am working as a Java backend developer, leveraging strong programming 
+              skills and a solid understanding of backend development principles. 
+              Committed to contributing to the development of robust and scalable 
+              applications using Java, Spring, Hibernate, and RESTful APIs. Eager
+               to work in a collaborative environment, enhance skills, and deliver 
+               efficient software solutions.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 When I'm not pushing commits, I'm contributing to open source, writing
@@ -178,10 +209,8 @@ function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: '5+', label: 'Years Experience' },
-                { value: '30+', label: 'Projects Shipped' },
-                { value: '15+', label: 'Happy Clients' },
-                { value: '8k+', label: 'GitHub Stars' },
+                { value: '4', label: 'Years Experience' },
+                { value: '5', label: 'Certifications' },
               ].map(({ value, label }) => (
                 <div
                   key={label}
@@ -217,7 +246,7 @@ function Home() {
               <span className="gradient-text">great together</span>
             </h2>
             <p className="text-muted-foreground mb-8 text-lg max-w-md mx-auto relative z-10">
-              I'm currently open to freelance projects and full-time opportunities.
+              I'm currently available for new opportunities.
             </p>
             <Link
               to="/contact"
