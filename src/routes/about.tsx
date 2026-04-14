@@ -86,10 +86,9 @@ function About() {
                 commit at a time
               </h1>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Hey! I'm Alex Morgan, a full stack developer based in San Francisco.
-                I've spent 5+ years turning product ideas into polished digital
-                experiences — everything from SaaS dashboards to real-time
-                collaboration tools.
+                Hey! I'm Gauri Sawant, a Java Developer with 4 years of experience in designing, developing, and maintaining Java applications. 
+                Seeking leverage expertise in Java technologies, software development, and problem-solving skills to 
+                contribute to a dynamic development team.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 My sweet spot is the React + TypeScript ecosystem. I care deeply
@@ -97,14 +96,14 @@ function About() {
                 actually enjoy reading.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Outside of coding, I'm an avid rock climber, amateur photographer,
+                Outside of coding, I'm a table tennis player, amateur photographer,
                 and occasional open source maintainer. I believe the best products
                 come from teams that communicate well and ship often.
               </p>
 
               <div className="flex flex-wrap gap-3 mt-8">
                 {[
-                  { icon: MapPin, text: 'San Francisco, CA' },
+                  { icon: MapPin, text: 'Mumbai, India' },
                   { icon: Briefcase, text: 'Open to opportunities' },
                 ].map(({ icon: Icon, text }) => (
                   <span
@@ -127,14 +126,23 @@ function About() {
                     background: 'linear-gradient(135deg, var(--violet), var(--cyan))',
                   }}
                 />
-                <img
-                  src="/B612_20260223_142641_254.jpg"
-                  alt="Gauri Sawant"
-                  className="relative w-72 h-80 rounded-3xl object-cover"
-                  style={{
-                    border: '2px solid color-mix(in oklch, var(--violet) 40%, transparent)',
-                  }}
-                />
+               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full ring-4 ring-primary/40 ring-offset-4 ring-offset-background overflow-hidden shadow-2xl">
+      <img
+        src="/b612_20260223_142641_254.jpg"
+        alt="Gauri Sawant — Backend Developer"
+        className="w-full h-full object-cover"
+        width={320}
+        height={320}
+      />
+    </div>
+
+    
+    {/* Floating stat badge */}
+     <div className="absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 bg-card border border-border rounded-2xl px-4 py-2.5 shadow-lg">
+      <div className="text-xs text-muted-foreground">Experience</div>
+      <div className="text-lg font-extrabold">4+ Years</div>
+    </div>
+
               </div>
             </div>
           </div>

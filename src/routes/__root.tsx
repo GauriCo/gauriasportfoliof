@@ -57,7 +57,7 @@ function Nav({ dark, setDark }: { dark: boolean; setDark: (v: boolean) => void }
                 background: 'linear-gradient(135deg, var(--violet), var(--cyan))',
               }}
             >
-              AM
+              GS
             </div>
             <span className="font-bold text-lg hidden sm:block">Gauri Sawant</span>
           </Link>

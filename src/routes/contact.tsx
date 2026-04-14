@@ -10,6 +10,7 @@ import {
   CheckCircle2,
   MapPin,
   Clock,
+  Phone,
 } from 'lucide-react'
 
 export const Route = createFileRoute('/contact')({
@@ -273,13 +274,35 @@ function Contact() {
                     <div>
                       <p className="text-xs text-muted-foreground mb-0.5">Email</p>
                       <a
-                        href="mailto:hello@gaurisawant.dev"
+                        href="mailto:gaurisawant567@gmail.com"
                         className="text-sm font-medium hover:text-primary transition-colors"
                       >
-                        hello@gaurisawant.dev
+                        gaurisawant567@gmail.com
                       </a>
                     </div>
                   </div>
+
+                  <div className="flex items-start gap-3">
+  <div
+    className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
+    style={{
+      background: 'color-mix(in oklch, var(--violet) 15%, transparent)',
+    }}
+  >
+    <Phone size={16} style={{ color: 'var(--violet)' }} />
+  </div>
+  <div>
+    <p className="text-xs text-muted-foreground mb-0.5">Mobile</p>
+    <a
+      href="tel:+919987603459"
+      className="text-sm font-medium hover:text-primary transition-colors"
+    >
+      +91 9987603459
+    </a>
+  </div>
+</div>
+
+
                   <div className="flex items-start gap-3">
                     <div
                       className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
@@ -291,7 +314,7 @@ function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-muted-foreground mb-0.5">Location</p>
-                      <p className="text-sm font-medium">San Francisco, CA</p>
+                      <p className="text-sm font-medium">Mumbai, India</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { allProjects } from 'content-collections'
 import { Badge } from '@/components/ui/badge'
-import { ArrowRight, Github, ExternalLink, ChevronDown } from 'lucide-react'
+import { ArrowRight, Github, ExternalLink, ChevronDown, Download } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
   component: Home,
@@ -68,7 +68,7 @@ function Home() {
           <div className="mt-10 flex flex-wrap gap-4 animate-slide-up-delay-3">
             <Link
               to="/projects"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105 hover:shadow-lg"
+              className="inline-flex items-center gap-2 px-3 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105 hover:shadow-lg"
               style={{
                 background: 'linear-gradient(135deg, var(--violet), var(--cyan))',
                 color: 'oklch(0.98 0 0)',
@@ -80,10 +80,25 @@ function Home() {
             </Link>
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm border border-border hover:border-primary/60 hover:bg-primary/5 transition-all duration-200"
-            >
+              className="inline-flex items-center gap-2 px-4 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105 hover:shadow-lg"
+              style={{
+                background: 'linear-gradient(135deg, var(--violet), var(--cyan))',
+                color: 'oklch(0.98 0 0)',
+                boxShadow: '0 0 24px color-mix(in oklch, var(--violet) 40%, transparent)',
+              }}            >
               Get In Touch
             </Link>
+            <a
+                href="/resume"
+                className="inline-flex items-center gap-2 px-3 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105 hover:shadow-lg"
+                style={{
+                background: 'linear-gradient(135deg, var(--violet), var(--cyan))',
+                color: 'oklch(0.98 0 0)',
+                boxShadow: '0 0 24px color-mix(in oklch, var(--violet) 40%, transparent)',
+              }}                >
+                <Download size={16} aria-hidden="true" />
+                View Resume
+              </a>
           </div>
 
           <div
